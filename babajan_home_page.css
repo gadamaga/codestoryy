@@ -1,0 +1,277 @@
+body{
+  position: relative;
+}
+.bodyesasy{
+  background-image: url(babajanesasymen.jpg);
+  opacity: 0.8;
+  background-size: cover; /* Arka plan resminin boyutunu ayarlama */
+   background-repeat: no-repeat;
+  height: 100vh; /* Tüm ekranı kaplamak için */
+              margin: 0; /* Varsayılan margin'leri sıfırlama */
+            padding: 0;
+           opacity: 0.9;
+           position: relative;
+}
+.bodyalgy {
+  background-color: #766CCA;
+  background-size: cover; /* Arka plan resminin boyutunu ayarlama */
+  
+  height: 100vh; /* Tüm ekranı kaplamak için */
+              margin: 0; /* Varsayılan margin'leri sıfırlama */
+            padding: 0;
+           opacity: 0.9;
+           
+}
+header, footer, main {
+  margin: 0;
+  padding: 0;
+ }
+.navbar {
+            display: flex;
+          width: 100%;
+            height: 12%;
+            text-decoration: none;
+            background-color: #9C92E5;
+            opacity: 0.8;
+            align-items: center;
+            flex-direction: row;
+            color: black;
+            justify-content: end;
+            margin-top: 5vh;
+            margin-bottom: 1vh;
+                      }
+            .navbar .logo{
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex: 1;
+            margin-left: 1%;
+            
+           
+            }      
+            .navbar .logo img {
+              width: 20vh;  
+              height: 12vh;   
+              border-radius: 10px; 
+                      }
+            a{
+              text-decoration: none;
+             font-size: 3vh;
+              color: black;
+              font-weight: bold;
+              padding: 0 1%;
+              
+              
+              }
+            a:hover{
+                background-color: #766CCA;
+                border-radius: 10%;
+                height: 100%;
+                display: flex;
+               
+                align-items: center;
+               }
+               .homeicon{
+                font-size: 4vh;
+                padding: 0 3vh;
+               }
+               .adminicon{
+                font-size: 4vh;
+                padding: 0 2ch;
+               }
+               footer {
+               background-color: black;
+               width: 100%;
+               height: 5%;
+              position: absolute;
+                bottom: 0;
+                color: white;
+                align-items: center;
+                                     }
+                footer p{
+                  font-size: 2vh;
+                }
+                .search-container {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+              }
+              main{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 80%;
+              }
+              .searchbar{
+                display: flex;
+                align-items: center;
+                background-color: #D9D9D9;
+                border: solid 2px black;
+                border-radius: 10px;
+                width:57%;
+                height: 13%;
+              }
+              .searchtext{
+                margin: 0 2%;
+                width: 80%;
+                height: 90%;
+                border: none;
+                background-color: transparent;
+                box-sizing: border-box;
+                font-size: 4vh;
+              }
+              .searchicon{
+                font-size: 2rem;
+                padding-left: 2vh;
+              }
+              .searchtext:focus {
+                outline: none; /* Default focus outline'y aýyrýar. gözle basanymyzdaky border i */
+                background-color: transparent; 
+            }
+             .searchbutton{
+              width: 8%;
+              height: 13%;
+              font-size: 5vh;
+              background-color: rgb(29, 167, 29);
+              border-radius: 15px;
+              cursor: pointer;
+             }
+             .searchbutton:hover{
+              background-color: green;
+             }
+            .clearbutton{
+              width: 8%;
+              height: 13%;
+              font-size: 3vh;
+              background-color: rgb(167, 29, 29);
+              border-radius: 15px;
+              cursor: pointer;
+              padding: 0 2vh;
+              }
+              .clearbutton:hover{
+              background-color: rgb(165, 7, 7);
+            }
+            .searchandfilter{
+              height: 8%;
+              display: flex;
+            }
+            .filter{
+              background-color: gold;
+              margin-left: 20%;
+              padding: 0            ;
+              width: 8%;
+             
+              border: 1px solid #000; 
+              font-size: 25px;
+                                      }
+           .searchbaralgy{
+              display: flex;
+              align-items: center; 
+              width: 60%;
+              height: 100%;
+              }
+              .searchiconalgy{
+                font-size: 30px;
+              }
+                   .search-bar {
+              border: 1px solid #ccc; 
+              border-radius: 4px; 
+              height: 90%;
+              width: 75%;
+              font-size: 25px;
+          }
+          
+         .search-button, .clear-button {
+              padding: 10px 15px; 
+             border: none; 
+              border-radius: 4px; 
+              cursor: pointer; 
+              height: 100%;
+             
+          }
+          
+                   .search-button {
+              background-color: #28a745;
+              color: black;
+              width: 10%;
+              font-size: 100%;
+          }
+          
+          .clear-button {
+              background-color: #dc3545; 
+              color: black; 
+              width: 10%;
+              font-size: 100%;
+          }
+        ul{
+          list-style-type: none;
+          position: relative;
+          margin: 0;
+          padding: 0;
+          z-index: 1;
+        }
+       li{
+        position: relative;
+       }
+       .filter ul li{
+        margin: 10px;
+       }
+       .filter li{
+        display: block; /* Blok seviyesinde göster */
+    color: white; /* Yazı rengi */
+    padding: 0;
+    text-decoration: none
+       }
+       .dropdown{
+        display: none;
+       }
+       .table{
+        margin:1% 0.5%;
+        height: 70%;
+       }
+       table{
+        background-color: white;
+        height:80%;
+        width: 100%;
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+
+       }
+       th{
+        background-color: #E0DADA;
+        border-bottom:  4px solid #978ce6 ;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+       }
+       td{
+       border: 1px solid #AEA6E7;
+        padding: 0  1%;
+        text-align: left;
+       }
+       tr{
+        padding:  0;
+        height: 25px;
+       }
+       .pagination {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+button:disabled {
+    background-color: grey;
+}
+.pagenumber {
+  position: fixed;
+  bottom: 10%;
+  right: 50%;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
